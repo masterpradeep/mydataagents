@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyDataAgents</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+        :root {
+            --google-blue: #4285F4;
+            --google-red: #DB4437;
+            --google-green: #0F9D58;
+            --google-yellow: #F4B400;
+            --gmail-bg: #F5F5F5;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .hero-section {
+            background-image: url('banner/banner.png'); /* Replace with the generated banner image */
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 100px 0;
+            text-align: center;
+        }
+
+        .hero-section h1 {
+            font-size: 3.5rem;
+            font-weight: bold;
+        }
+
+        .hero-section p {
+            font-size: 1.25rem;
+            margin-top: 15px;
+        }
+
+        .section-heading {
+            margin-bottom: 30px;
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: var(--google-blue);
+        }
+
+        .navbar {
+            background-color: var(--gmail-bg);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar-brand img {
+            width: 40px;
+            margin-right: 10px;
+        }
+
+        .navbar-nav .nav-link {
+            color: #333;
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: var(--google-blue);
+        }
+
+        #about {
+            margin-top: 0; /* Removes the large gap */
+            padding-top: 50px; /* Ensures proper spacing */
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="logo/logo-png-1.png" alt="Logo">MyDataAgents
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#solutions">Solutions</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#privacy">Privacy</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="container">
+            <h3>..</h3>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="container py-5">
+        <h2 class="section-heading text-center">About MyDataAgents</h2>
+        <p class="text-center">At MyDataAgents, we specialize in creating AI-driven agents tailored to your specific requirements, tasks, and data of your organization. Our solution ensures your data remains within your environment, providing the highest level of privacy and security.</p>
+    </section>
+
+    <!-- Solutions Section -->
+    <section id="solutions" class="container py-5">
+        <h2 class="section-heading text-center">Our AI Solutions</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Task Automation</h5>
+                        <p class="card-text">Automate routine tasks and workflows to increase efficiency with our AI-driven solutions.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Data Analysis</h5>
+                        <p class="card-text">Our agents can analyze large datasets, providing insights and reports to aid decision-making.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Industry-Specific Tools</h5>
+                        <p class="card-text">We offer tailored AI solutions for specific industries like finance, healthcare, and more.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Privacy Section -->
+    <section id="privacy" class="bg-light py-5">
+        <div class="container">
+            <h2 class="section-heading text-center">Privacy at the Core</h2>
+            <p class="text-center">At MyDataAgents, we prioritize the privacy of your data. Our AI agents operate entirely within your environment, ensuring no data leaves your systems. With state-of-the-art encryption and security protocols, your information remains protected at all times.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container py-5 text-center">
+        <h2 class="section-heading">Get in Touch</h2>
+        <p>For inquiries, please email us directly at <a href="mailto:contact@mydataagents.com" class="text-decoration-none">hello@mydataagents.com</a></p>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer text-center">
+        <p>&copy; 2025 MyDataAgents. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS and Dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
